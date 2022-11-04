@@ -1,0 +1,71 @@
+.heading {
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+}
+
+.food-catalog {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.food-menu {
+    width: 20%;
+    text-align: center;
+}
+
+.num {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.num a {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+.details {
+    align-items: center;
+    text-align: center;
+    width: 85%;
+    margin-left: 100px;
+    margin-bottom: 90px;
+}
+
+.footer {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.part-1 {
+    width: 30%;
+}
+
+.part-2-1 {
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.part-3 {
+    max-width: 300px;
+}
+
+.tag {
+    background-color: #808080;
+    color: #fff;
+    padding: 3px 5px;
+    height: 10px;
+}
