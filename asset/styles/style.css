@@ -1,23 +1,28 @@
 .heading {
     display: flex;
     justify-content: space-between;
-    font-size: 40px;
-}
+    width: 100%;
+    font-size: 5vh;
+} 
 
 .food-catalog {
-    display: flex;
-    gap: 3rem;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 70px;
-    margin-right: 70px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 80%;
+    margin: auto;
 }
-
+hr {
+  width: 80%;
+}
 .food-menu {
-    width: 20%;
+    display: block;
+    max-width: 15vw;
     text-align: center;
 }
 
+.bic {
+    width: 100%;
+}
 .num {
     justify-content: center;
     align-items: center;
@@ -36,31 +41,45 @@
 .details {
     align-items: center;
     text-align: center;
-    width: 85%;
-    margin-left: 100px;
-    margin-bottom: 90px;
+    width: 75%;
+    margin: auto;
 }
 
-.footer {
+.pic {
+    width: 90%;
+}
+
+.footer-container {
     display: flex;
-    font-size: 14px;
-    justify-content: space-between;
-    margin-left: 70px;
-    margin-right: 70px;
+    justify-content: space-around;
+    width: 100%;
+    
 }
 
 .part-1 {
-    width: 30%;
+    display: block;
+    max-width: 15vw;
+    
 }
 
-.part-2-1 {
-    display: flex;
-    gap: 1.2rem;
-    justify-content: center;
+.part-2 {
+    display:  block;
+    max-width: 15vw;
+
+    
 }
 
 .part-3 {
-    max-width: 300px;
+    display: block;
+    max-width: 15vw;
+    min-height: 30vh;
+} 
+
+.blog p {
+    display: flex;
+    gap: 20px;
+
+
 }
 
 .tag {
@@ -69,3 +88,48 @@
     padding: 3px 5px;
     height: 10px;
 }
+
+@media only screen and (max-width: 425px) {
+  .heading {
+    width: 100%;
+  }
+  .food-catalog {
+    display: block;
+    justify-content: center;
+  }
+
+  .food-menu {
+    max-width: 650px;
+    margin: auto;
+  }
+  .bic {
+    width: 100%;
+  }
+  .details .img {
+    width: 100%;
+    height: 10px;
+  }
+  .footer {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    
+  }
+  .part-1,
+  .part-2,
+  .part-3 {
+    display: block;
+    max-width: 80vw;
+    margin-top: 20px;
+  font-size: small;
+  line-height: 1.8;
+  justify-content: space-between;
+  }
+  .footer-container {
+    padding: 0%;
+    gap: 4rem;
+  }
+  .tag {
+    padding: 0%;
+    width: auto;
+  }
+  }
