@@ -1,98 +1,96 @@
 .heading {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    font-size: 5vh;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 5vh;
 } 
 
 .food-catalog {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    width: 80%;
-    margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 80%;
+  margin: auto;
 }
+
 hr {
   width: 80%;
 }
+
 .food-menu {
-    display: block;
-    max-width: 15vw;
-    text-align: center;
+  display: block;
+  max-width: 15vw;
+  text-align: center;
 }
 
 .bic {
-    width: 100%;
+  width: 100%;
 }
+
 .num {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    gap: 2rem;
-    margin-bottom: 50px;
-    margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 .num a {
-    background-color: #000;
-    color: #fff;
-    text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
 }
 
 .details {
-    align-items: center;
-    text-align: center;
-    width: 75%;
-    margin: auto;
+  align-items: center;
+  text-align: center;
+  width: 75%;
+  margin: auto;
 }
 
 .pic {
-    width: 90%;
+  width: 90%;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    
+  display: flex;
+  justify-content: space-around;
+  width: 100%;  
 }
 
 .part-1 {
-    display: block;
-    max-width: 15vw;
-    
+  display: block;
+  max-width: 15vw;  
 }
 
 .part-2 {
-    display:  block;
-    max-width: 15vw;
-
-    
+  display:  block;
+  max-width: 15vw;  
 }
 
 .part-3 {
-    display: block;
-    max-width: 15vw;
-    min-height: 30vh;
+  display: block;
+  max-width: 15vw;
+  min-height: 30vh;
 } 
 
 .blog p {
-    display: flex;
-    gap: 20px;
-
-
+  display: flex;
+  gap: 20px;
 }
 
 .tag {
-    background-color: #808080;
-    color: #fff;
-    padding: 3px 5px;
-    height: 10px;
+  background-color: #808080;
+  color: #fff;
+  padding: 3px 5px;
+  height: 10px;
 }
 
 @media only screen and (max-width: 425px) {
   .heading {
     width: 100%;
   }
+
   .food-catalog {
     display: block;
     justify-content: center;
@@ -102,18 +100,22 @@ hr {
     max-width: 650px;
     margin: auto;
   }
+
   .bic {
     width: 100%;
   }
+
   .details .img {
     width: 100%;
     height: 10px;
   }
+
   .footer {
     display: grid;
     grid-template-rows: auto auto auto;
     
   }
+
   .part-1,
   .part-2,
   .part-3 {
@@ -124,10 +126,12 @@ hr {
   line-height: 1.8;
   justify-content: space-between;
   }
+
   .footer-container {
     padding: 0%;
     gap: 4rem;
   }
+  
   .tag {
     padding: 0%;
     width: auto;
