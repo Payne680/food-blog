@@ -112,8 +112,6 @@ hr {
 
   .footer {
     display: block;
-    padding-left: ;
-    padding-right: ;
     min-width: 100vw;
     margin: auto;
   }
@@ -140,6 +138,5 @@ hr {
 
   .tag {
     padding: 0%;
-    width: ;
   }
 }
