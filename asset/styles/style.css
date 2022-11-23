@@ -111,28 +111,35 @@ hr {
   }
 
   .footer {
-    display: grid;
-    grid-template-rows: auto auto auto;
+    display: block;
+    padding-left: ;
+    padding-right: ;
+    min-width: 100vw;
+    margin: auto;
   }
 
   .part-1,
   .part-2,
   .part-3 {
     display: block;
-    max-width: 80vw;
+    flex-direction: column;
+    max-width: 70vw;
     margin-top: 20px;
     font-size: small;
     line-height: 1.8;
-    justify-content: space-between;
   }
 
   .footer-container {
-    padding: 0%;
-    gap: 4rem;
+    display: block;
+    padding: auto;
+    max-width: 70%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .tag {
     padding: 0%;
-    width: auto;
+    width: ;
   }
 }
