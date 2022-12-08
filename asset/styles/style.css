@@ -30,15 +30,26 @@ hr {
   justify-content: center;
   align-items: center;
   display: flex;
-  gap: 2rem;
-  margin-bottom: 50px;
-  margin-top: 30px;
+  text-align: center;
 }
 
 .num a {
-  background-color: #000;
-  color: #fff;
+  padding: 8px 10px;
+  float: left;
+  color: #000;
   text-decoration: none;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.num a span {
+  background-color: #000;
+  padding: 4px 12px;
+  color: #fff;
+}
+
+.num a:hover {
+  background-color: #00eded;
 }
 
 .details {
