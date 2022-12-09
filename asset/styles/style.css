@@ -1,8 +1,33 @@
-.heading {
+header {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  font-size: 5vh;
+  font-size: 3vh;
+  height: 80px;
+  top: 0;
+  font-size: 12px;
+  position: sticky;
+  background-color: #fff;
+}
+
+.menu-icon {
+  cursor: pointer;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 8%;
+}
+
+.icon {
+  width: 30px;
+  height: 4px;
+  background-color: #000;
+  margin: 5px 0;
+  border-radius: 25%;
+  padding-right: 7%;
+}
+
+h1 {
+  padding-right: 10%;
 }
 
 .food-catalog {
@@ -60,7 +85,7 @@ hr {
 }
 
 .pic {
-  width: 90%;
+  width: 70%;
 }
 
 .footer-container {
@@ -102,6 +127,10 @@ hr {
     width: 100%;
   }
 
+  .menu-icon {
+    padding-top: 5%;
+  }
+
   .food-catalog {
     display: block;
     justify-content: center;
@@ -110,6 +139,10 @@ hr {
   .food-menu {
     max-width: 650px;
     margin: auto;
+  }
+
+  .pic {
+    width: 100%;
   }
 
   .bic {
