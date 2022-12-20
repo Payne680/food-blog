@@ -1,0 +1,185 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  top: 0;
+  font-size: 12px;
+  position: sticky;
+  background-color: #fff;
+}
+
+.menu-icon {
+  cursor: pointer;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 8%;
+}
+
+.icon {
+  width: 30px;
+  height: 4px;
+  background-color: #000;
+  margin: 5px 0;
+  border-radius: 25%;
+  padding-right: 7%;
+}
+
+h1 {
+  padding-right: 10%;
+}
+
+.food-catalog {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 65%;
+  margin: auto;
+}
+
+hr {
+  width: 80%;
+}
+
+.food-menu {
+  display: block;
+  max-width: 15vw;
+  text-align: center;
+}
+
+.bic {
+  width: 100%;
+}
+
+.num {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+.num a {
+  padding: 8px 10px;
+  float: left;
+  color: #000;
+  text-decoration: none;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.num a span {
+  background-color: #000;
+  padding: 4px 12px;
+  color: #fff;
+}
+
+.num a:hover {
+  background-color: #00eded;
+}
+
+.details {
+  align-items: center;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
+
+.pic {
+  width: 70%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.part-1 {
+  display: block;
+  max-width: 15vw;
+}
+
+.part-2 {
+  display: block;
+  max-width: 15vw;
+}
+
+.part-3 {
+  display: block;
+  max-width: 15vw;
+  min-height: 30vh;
+}
+
+.blog p {
+  display: flex;
+  gap: 20px;
+}
+
+.tag {
+  background-color: #808080;
+  color: #fff;
+  padding: 3px 5px;
+  height: 10px;
+}
+
+@media only screen and (max-width: 425px) {
+  .heading {
+    width: 100%;
+  }
+
+  .menu-icon {
+    padding-top: 5%;
+  }
+
+  .food-catalog {
+    display: block;
+    justify-content: center;
+  }
+
+  .food-menu {
+    max-width: 650px;
+    margin: auto;
+  }
+
+  .pic {
+    width: 100%;
+  }
+
+  .bic {
+    width: 100%;
+  }
+
+  .details .img {
+    width: 100%;
+    height: 10px;
+  }
+
+  .footer {
+    display: block;
+    min-width: 100vw;
+    margin: auto;
+  }
+
+  .part-1,
+  .part-2,
+  .part-3 {
+    display: block;
+    flex-direction: column;
+    max-width: 70vw;
+    margin-top: 20px;
+    font-size: small;
+    line-height: 1.8;
+  }
+
+  .footer-container {
+    display: block;
+    padding: auto;
+    max-width: 70%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .tag {
+    padding: 0%;
+  }
+}
